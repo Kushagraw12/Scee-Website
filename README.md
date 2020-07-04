@@ -1,3 +1,16 @@
+# SCEE WEBSITE-FRONTEND
+
+## CONTRIBUTION GUIDELINES
+
+First `FORK` this repo and then make a branch of the component on which you wish to work. This can be done by following:<br />
+`git checkout -b <component name>`
+
+This command will make another branch by this name and switch to that branch.<br />
+After making the local changes and commits push your changes to the branch on which you are working, by running this command:<br />
+`git push -u <component name>`
+
+Then make a Pull Request after the component name that you have worked on.<br />
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -12,10 +25,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ## Learn More
 
