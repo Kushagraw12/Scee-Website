@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 .rr {
     margin-top: 200px;
-    margin-left: 50px;
+    margin-left: 130px;
     font-size: 18px;
     font-weight: 800px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
     border: 5px solid #000;
+    width: 900px;
+    justify-content: center;
 }
  
 .row {
@@ -17,22 +20,33 @@
 /*
 .fff {
     background-color: #aaeb9d;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 */
+
+.fff {
+    margin-left: 190px;  
+    font-size: 20px;
+}
+
 .in-name {
-    margin-left: 10rem;
+    margin-left: 10.5rem;
+    width: 30rem;
 }
 
 .in-email {
-    margin-left: 8rem;
+    margin-left: 8.3rem;
+    width: 30rem;
 }
 
 .in-num {
-    margin-left: 2.5rem;
+    margin-left: 3rem;
+    width: 30rem;
 }
 
 .in-mes {
-    margin-left: 7.5rem;
+    margin-left: 8rem;
+    width: 30rem;
 }
 
 .eee {
@@ -47,3 +61,17 @@
     margin-top: 2rem;
 }
 
+.butn {
+    margin-left: 150px;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.logo-form {
+    height: 120px;
+    width: 120px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
