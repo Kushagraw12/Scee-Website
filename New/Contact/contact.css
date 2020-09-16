@@ -1,13 +1,49 @@
-.container {
-    margin-top: 0px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 .rr {
-    margin: 100px;
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 800px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 5px solid #000;
+}
+ 
+.row {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/*
+.fff {
+    background-color: #aaeb9d;
+}
+*/
+.in-name {
+    margin-left: 10rem;
 }
 
-.fff {
-    top: 100px;
-    right: 50px;
-    margin-top: 200px;
+.in-email {
+    margin-left: 8rem;
 }
+
+.in-num {
+    margin-left: 2.5rem;
+}
+
+.in-mes {
+    margin-left: 7.5rem;
+}
+
+.eee {
+    margin-top: 2rem;
+}
+
+.phph {
+    margin-top: 2rem;
+}
+
+.messss {
+    margin-top: 2rem;
+}
+
