@@ -10,6 +10,7 @@
     border: 5px solid #000;
     width: 900px;
     justify-content: center;
+    backdrop-filter: blur(3px);
 }
  
 .row {
