@@ -45,3 +45,9 @@
     background-image: url("https://sceedtu.files.wordpress.com/2020/05/strataweb-500x500-1.jpg?w=500&h=312&crop=1");
 }
 */
+
+cite {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
