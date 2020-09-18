@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Berkshire+Swash&display=swap');
+
+.head-txt {
+    color: #fff;
+    align-items: center;
+}
+
+.bbb {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #fff;
+}
+
+.card {
+    border: 3px solid #000;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    margin: 5px;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+}
+
+.card-body {
+    color: #f7f7f7;
+    margin: 5px;
+    font-family: 'Aladin', cursive;
+    font-size: 20px;
+}

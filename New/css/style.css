@@ -40,16 +40,15 @@ a,a:hover,a:active,a:focus {
 h1,h2,h3,h4,h5,h6 { 
 
 	margin: 0;
-	color:#222222;
+    color:#222222;
 	text-transform: capitalize;
-
 }
 
 p {
 
 	margin: 0;
-	color:#666666;
-	font-size:14px;
+	/*color:#666666;
+	font-size:14px;*/
 
 }
 
@@ -121,9 +120,7 @@ html,body{
     z-index: 2;
     transition:.7s;
 }
-.is-sticky .header-area{
 
-}
 .is-sticky .header-area:after{
     position:absolute;
     content:'';
