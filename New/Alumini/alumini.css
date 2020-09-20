@@ -1,8 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 .head {
     margin-top: 150px;
     border-bottom: 4px solid #fff;
+   /* font-family: 'Playfair Display', serif;*/
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
 }
 
 .aa {
@@ -14,6 +18,13 @@
     font-size: 24px;
     min-height: 320px;
     backdrop-filter: blur(3px);
+}
+
+cite {
+    color: #222;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-style: italic;
 }
 
 h2 {
