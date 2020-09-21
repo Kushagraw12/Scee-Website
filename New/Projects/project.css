@@ -53,7 +53,7 @@ cite {
 
 .org-view {
     border: none;
-    padding: 8px;
+    padding: 12px;
     font-size: 7px;
     margin-top: 10px;
     height: fit-content;
@@ -63,6 +63,11 @@ cite {
     border-radius: 10px;
 }
   
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
 .org-view:hover {
     background-color: none;
 }
@@ -98,8 +103,8 @@ cite {
 }
   
 .tag:hover {
-    box-shadow: 0 1px 5px rgb(209, 209, 209);
-    transition-duration: 0.2s;
+  box-shadow: 0 1px 5px rgb(209, 209, 209);
+  transition-duration: 0.2s;
 }
 
 .a-text{
@@ -134,64 +139,75 @@ cite {
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(2px);
-  }
-  .pop-content {
-    background-color: white;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    padding-left: 40px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-right: 30px;
-    width: 50%;
-  }
-  .pop-heading {
-    color: #3498db;
-    font-weight: 800;
-  }
-  .pop-flex {
+}
+
+.pop-content {
+  background-color: white;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 30px;
+  width: 50%;
+}
+
+.pop-heading {
+  color: #3498db;
+  font-weight: 800;
+}
+
+.pop-flex {
     display: flex;
     justify-content: space-between;
-  }
-  .closeBtn {
+}
+  
+.closeBtn {
     font-size: 30px;
     color: #5db3ec;
-  }
-  .closeBtn:hover {
+}
+
+.closeBtn:hover {
     color: black;
     text-shadow: 2px 2px 2px #9e9c9c;
     cursor: pointer;
     transition-duration: 0.1s;
-  }
-  .giturl {
+}
+  
+.giturl {
     font-size: 15px;
     color: gray;
-  }
-  .url {
+}
+  
+.url {
     color: #3498db;
     font-size: 13px;
-  }
-  .Abt {
+}
+  
+.Abt {
     color: #3498db;
     font-weight: 600;
     font-size: 23px;
     margin-top: 40px;
     margin-bottom: 10px;
-  }
-  .toprep {
+}
+  
+.toprep {
     color: #3498db;
     font-weight: 600;
     font-size: 23px;
     margin-top: 30px;
     margin-bottom: 15px;
-  }
-  .silt {
+}
+  
+.silt {
     font-weight: 500;
     margin-bottom: 5px;
-  }
-  .org-side-box {
+}
+  
+.org-side-box {
     border-radius: 16px;
     background-color: #f7f7f7;
     padding-top: 0.1px;
@@ -201,81 +217,89 @@ cite {
     box-shadow: 1px 1px 5px #c9c9c9;
     margin-top: 30px;
     width: 200px;
-  }
-  .side {
+}
+  
+.side {
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 20px;
     margin-top: 20px;
-  }
+}
 
-  @media screen and (max-width: 990px) {
-    .org {
+@media screen and (max-width: 990px) {
+  .org {
       flex-direction: column-reverse;
       height: fit-content;
       text-align: center;
       padding: 0;
-    }
+  }
   
-    .right-col,
-    .left-col {
+  .right-col,
+  .left-col {
       width: 95%;
       padding-bottom: 20px;
-    }
-    .right-col img {
+  }
+  
+  .right-col img {
       margin-top: 20px;
       position: unset;
       float: unset;
       width: 40%;
-    }
-    .org-heading {
+  }
+    
+  .org-heading {
       font-size: 30px;
-    }
-    .left-col p {
+  }
+    
+  .left-col p {
       font-size: 12px;
-    }
-    .top-bar {
+  }
+   
+  .top-bar {
       width: 95%;
-    }
-    .cards-grid {
+  }
+    
+  .cards-grid {
       grid-template-columns: auto;
       width: 95%;
       grid-gap: 20px;
-    }
-    .orgdes {
+  }
+    
+  .orgdes {
       font-size: 14px;
-    }
-    .org-name {
+  }
+    
+  .org-name {
       font-size: 20px;
-    }
+  }
   
     /* adding media querries for modal box */
   
-    .pop-content {
+  .pop-content {
       width: 95%;
       margin-top: 20px;
       text-align: center;
       margin-bottom: 20px;
-    }
+  }
   
-    .giturl {
-      text-align: left;
-    }
+  .giturl {
+    text-align: left;
+  }
   
-    .bottom-row {
+  .bottom-row {
       flex-direction: column;
-    }
+  }
   
-    .pop-heading {
+  .pop-heading {
       font-size: 30px;
-    }
+  }
   
-    .org-side-box {
+  .org-side-box {
       /* centering the boxes */
       margin-right: auto;
       margin-left: auto;
   
       width: 80%;
-    }
   }
+}
   
