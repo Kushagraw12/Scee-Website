@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.head {
+    margin-top: 150px;
+    border-bottom: 4px solid #fff;
+   /* font-family: 'Playfair Display', serif;*/
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+
+cite {
+    color: #222;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.caption {
+    margin: 10px;
+}
