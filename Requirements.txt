@@ -1,2 +1,0 @@
-reactstrap
-react-router-dom
