@@ -1,37 +1,31 @@
 {
   "name": "scee",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
-    "react-transition-group": "^4.4.1",
-    "reactstrap": "^8.5.1"
-  },
+  "version": "0.2.0",
+  "description": "Official website of SCEE",
+  "main": "index.html",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "npm run lite",
+    "test": "test",
+    "lite": "lite-server"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kushagraw12/Scee-Website.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Kushagra Wadhwa",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Kushagraw12/Scee-Website/issues"
+  },
+  "homepage": "https://github.com/Kushagraw12/Scee-Website#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-icons": "^1.0.0-alpha3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.12.9",
+    "minimist": ">=1.2.3"
   }
 }
