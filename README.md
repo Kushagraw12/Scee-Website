@@ -9,7 +9,7 @@ This website needs to be completed by the end of October!
 
 ## Back-end
 There is not much backend work here.
-For simplicity sake we are planning to use Flask as our back-end. 
+For simplicity sake we are planning to use NodeJS(tentative) as our back-end. 
 Any and all new ideas are welcome!
 
 
