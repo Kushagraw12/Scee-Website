@@ -1,16 +1,15 @@
 # SCEE WEBSITE
-Thsi repo is to make SCEE-Website.
-Society of Civil and Environmental Engineering(SCEE) is the oldest and the largest technical society of Delhi Technological University. 
-This repo aims at making a website for SCEE and maintiaining it.
+This goal of this repo is to make and maintain the SCEE Website.
+Society of Civil and Environmental Engineering (SCEE) is the oldest and largest technical society of Delhi Technological University. 
 
 ## Front-end
 The front-end will be carried out using Bootstrap.
-A lot of front-end task has been done and a lot is still left.
-This webiste needs to be completed in the month of October!
+A lot of front-end tasks have been done and a lot are still left.
+This website needs to be completed by the end of October!
 
 ## Back-end
 There is not much backend work here.
-For the sake of simplicity we were planning to use Flask at our back-end. 
+For simplicity sake we are planning to use Flask as our back-end. 
 Any and all new ideas are welcome!
 
 
@@ -18,7 +17,7 @@ Any and all new ideas are welcome!
 
 1. First `FORK` this repo
 
-2. Goto terminal: `git init`
+2. Go to terminal: `git init`
   `git remote add origin https://github.com/<your_github_username>/Scee-Website`
 
 3. Then make a branch of the component on which you wish to work. This can be done by following:<br />
