@@ -12,5 +12,6 @@ There is not much backend work here.
 For simplicity sake we are planning to use NodeJS(tentative) as our back-end. 
 Any and all new ideas are welcome!
 
+[Follow us on Instagram](https://www.instagram.com/sceedtu/)
 
 ```print("Happy Coding!")```
