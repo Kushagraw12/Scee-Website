@@ -102,7 +102,7 @@ html,body{
 		2. Header
 --------------------------------------*/
 .top-area {
-    position: absolute;
+    position: static;
     width: 100%;
 }
 .wrapper {
