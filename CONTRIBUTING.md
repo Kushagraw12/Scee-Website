@@ -14,5 +14,9 @@
 
 Please follow the coding stanards as it makes it easier for us to maintain! 
 
+If your pr is merged, your name will be added to the Contributors list.
+
+Important: [Follow us on Instagram](https://www.instagram.com/sceedtu/)
+
 
 ```print("Happy Coding!")```
