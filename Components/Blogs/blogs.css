@@ -24,6 +24,7 @@
     margin: 5px;
     font-family: 'Berkshire Swash', cursive;
     font-size: 30px;
+    text-align: center;
 }
 
 .card-body {
@@ -39,6 +40,9 @@
     height: 200px;
     opacity: 0.8;
     margin-top: 0px;
+    border-radius: 25px;
+    margin-right: 0px;
+    margin-bottom: 6px;
 }
 /*
 .c1 {
@@ -62,4 +66,16 @@ cite {
 
 .i1 {
     margin-right: 0px;
+}
+
+i{
+    margin-left: 6px;
+}
+
+#more1{
+    display: none;
+}
+
+#more2{
+    display: none;
 }
