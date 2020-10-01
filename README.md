@@ -12,6 +12,11 @@ There is not much backend work here.
 For simplicity sake we are planning to use NodeJS(tentative) as our back-end. 
 Any and all new ideas are welcome!
 
+## Contributions
+
+Any and all contributions are welcome! :)
+For Contributor Guidelines, have a look [here](https://github.com/Kushagraw12/Scee-Website/blob/master/CONTRIBUTING.md)
+
 [Follow us on Instagram](https://www.instagram.com/sceedtu/)
 
 ```print("Happy Coding!")```
