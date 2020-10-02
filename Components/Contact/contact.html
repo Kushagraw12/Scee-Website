@@ -8,7 +8,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
-
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <title>SCEE-DTU</title>
 
     <link rel="shortcut icon" type="image/icon" href="favicon.png" />
@@ -80,12 +81,12 @@
                                     <li class="smooth-menu"><a href="../Alumini/alumini.html">Alumni </a></li>
                                     <li class="smooth-menu"><a href="#">History</a></li>
                                     <li class="smooth-menu"><a href="#">Papers</a></li>
-                                    <li class="smooth-menu"><a href="../Contact/contact.html">StayInTouch</a></li>
+                                    <li class="smooth-menu active"><a href="../Contact/contact.html">StayInTouch</a>
+                                    </li>
                                     <li>
                                         <a class="book-btn" href='../Blogs/blogs.html'>Our Blogs
                                         </a>
                                     </li>
-
                                 </ul>
                             </div>
                         </div>
@@ -95,37 +96,61 @@
             </div>
         </div>
     </header>
-
-
     <section>
-        <div class='container'>
-            <div class='contacte rr'>
-                <div class='forme'>
-                    <form class='fff center'>
-                        <div class='row center'>
-                            <img src='../../assets/scee_logo.png' class='img-fluid d-block logo-form' />
+        <div class="container">
+            <div class="innerwrap">
+                <section class="section1 clearfix">
+                    <div class="textcenter">
+                        <h1>Contact <span style="color:#00d8ff">Us</span></h1>
+                    </div>
+                </section>
+                <section class="section2 clearfix">
+                    <div class="col2 column1 first">
+
+                        <div class="sec2map" style='overflow:hidden;height:550px;width:100%;'>
+                            <div id='gmap_canvas' style='height:85%;width:85%;margin-top: 3.5rem;border-radius: 1rem'>
+
+                                <script>
+                                    var map = L.map('gmap_canvas').setView([28.7501, 77.1177], 15);
+
+                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                                    }).addTo(map);
+
+                                    L.marker([28.7501, 77.1177]).addTo(map)
+                                        .bindPopup('Delhi Technological University, New Delhi')
+                                        .openPopup();
+                                </script>
+                            </div>
+                            <style>
+                                #gmap_canvas img {
+                                    max-width: none !important;
+                                    background: none !important;
+
+                                }
+                            </style>
                         </div>
-                        <div class='row nnn'>
-                            <label class='name'> YOUR NAME: </label>
-                            <input type='text' id='in-name' class='in-name' placeholder='Name' />
+                    </div>
+                    <div class="col2 column1 first">
+                        <div class="sec2contactform">
+                            <h3 class="sec2frmtitle">Drop Us a Mail</h3>
+                            <form action="">
+                                <div class="clearfix">
+                                    <input class="col2 first" type="text" placeholder="FirstName" required>
+                                    <input class="col2 last" type="text" placeholder="LastName">
+                                </div>
+                                <div class="clearfix">
+                                    <input class="col2 first" type="Email" placeholder="Email" required>
+                                    <input class="col2 last" type="text" placeholder="Contact Number">
+                                </div>
+                                <div class="clearfix">
+                                    <textarea name="textarea" id="" cols="30" rows="7">Your message here...</textarea>
+                                </div>
+                                <div class="clearfix"><input type="submit" value="Send"></div>
+                            </form>
                         </div>
-                        <div class='row eee'>
-                            <label class='email'> YOUR EMAIL ID: </label>
-                            <input type='email' id='in-email' class='in-email' placeholder='Email-id' />
-                        </div>
-                        <div class='row phph'>
-                            <label class='num'> YOUR PHONE NUMBER: </label>
-                            <input type='tel' id='in-num' class='in-num' placeholder='Phone Number' />
-                        </div>
-                        <div class='row messss'>
-                            <label class='mes'> YOUR MESSAGE: </label>
-                            <input type="textarea" id='in-mes' class='in-mes' placeholder='Your Message' />
-                        </div>
-                        <div class='row butn'>
-                            <button type="button" class="btn btn-primary btn-lg"><b>SUBMIT</b></button>
-                        </div>
-                    </form>
-                </div>
+                    </div>
+                </section>
             </div>
         </div>
     </section>
@@ -171,6 +196,8 @@
 
     <!--Custom JS-->
     <script src="../js/custom.js"></script>
+
+    <!--Google Map-->
 </body>
 
 </html>
