@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 .head {
-  margin-top: 150px;
+  margin-top: 70px;
   border-bottom: 4px solid #fff;
    /* font-family: 'Playfair Display', serif;*/
   font-family: 'Anton', sans-serif;
-  font-size: 30px;
+  font-size: 100px;
 }
 
 cite {
@@ -47,6 +47,7 @@ cite {
   padding-top: 0.1px;
   padding-right: 20px;
   padding-left: 20px;
+  padding-bottom: 3px;
   border: none;
   box-shadow: 1px 1px 5px #c9c9c9;
 }
@@ -69,28 +70,28 @@ cite {
 }
 
 .org-view:hover {
-    background-color: none;
+  background-color: none;
 }
   
 .org-view img {
-    width: 18px;
+  width: 18px;
 }
 
 .orgdes {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: 200;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 200;
 }
 
 .org-name {
-    font-weight: 500;
-    font-size: 26px;
-    color: #00558e;
-    padding-top: 15px;
+  font-weight: 500;
+  font-size: 26px;
+  color: #00558e;
+  padding-top: 15px;
 }
 
 .tag {
-  padding: 3px 8px;
+  padding: 3px 10px;
   display: inline;
   border-radius: 500px;
   border: none;
