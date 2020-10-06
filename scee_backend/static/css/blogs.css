@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.head-txt {
+    color: #fff;
+    align-items: center;
+}
+
+.bbb {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #fff;
+}
+
+.card {
+    border: 3px outset #000;
+    margin: 5px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(3px);
+}
+
+.card-header {
+    margin: 5px;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-body {
+    color: #f7f7f7;
+    margin: 5px;
+    /*font-family: 'Aladin', cursive;*/
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+}
+
+.blog-image {
+    /*padding-left: 750px;*/
+    height: 200px;
+    opacity: 0.8;
+    margin-top: 0px;
+    border-radius: 25px;
+    margin-right: 0px;
+    margin-bottom: 6px;
+}
+/*
+.c1 {
+    background-image: url("https://sceedtu.files.wordpress.com/2020/05/strataweb-500x500-1.jpg?w=500&h=312&crop=1");
+}
+*/
+
+cite {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.i2 {
+    @media (min-width: 600px) {
+        margin-left: 255px;
+    }
+    
+    margin-right: 0px;
+}
+
+.i1 {
+    margin-right: 0px;
+}
+
+i{
+    margin-left: 6px;
+}
+
+#more1{
+    display: none;
+}
+
+#more2{
+    display: none;
+}
