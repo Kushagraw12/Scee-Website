@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.about {
+    background-color: #fff;
+    font-family: 'Oswald', sans-serif;
+    /*width: 1400px;
+    margin-left: 70px;*/
+}
+
+.a-t {
+    margin: 2rem 2rem;
+}
+
+.tet {
+    font-size: 28px;
+}
+.cont {
+    margin: 0px;
+}
+
+.log-sc {
+    height: 150px;
+    margin-left: 1200px;
+    margin-top: 0px;
+    margin-bottom: 4rem;
+}
+
+p {
+    font-size: 20px;
+}
+
+.white-bggg {
+    margin-top: 30px;
+}
+
+.sceee {
+    font-size: 40px;
+}
+
+.header {
+    margin-top: 5rem;
+}
+
+.ab-team {
+    color: #fff;
+    margin-top: 3rem;
+}
