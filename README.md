@@ -17,6 +17,10 @@ Any and all new ideas are welcome!
 Any and all contributions are welcome! :)
 For Contributor Guidelines, have a look [here](https://github.com/Kushagraw12/Scee-Website/blob/master/CONTRIBUTING.md)
 
+SCEE Thanks all of them for their valuable contributions!
+
+[List of all the Contributors](https://github.com/Kushagraw12/Scee-Website/blob/master/CONTRIBUTORS_LIST.md)
+
 [Follow us on Instagram](https://www.instagram.com/sceedtu/)
 
 ```print("Happy Coding!")```
