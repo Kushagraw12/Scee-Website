@@ -9,3 +9,5 @@ Your names will be added here after one or more of your prs have been merged (fi
 3. Alkatrivedi | [GitHub Profile](https://github.com/alkatrivedi)
 
 4. Abdul Azim | [GitHub Profile](https://github.com/azim2429)
+
+5. Devansh Mehra | [GitHub Profile](https://github.com/DevanshMehra)
