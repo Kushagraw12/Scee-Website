@@ -10,7 +10,7 @@ This website needs to be completed by the end of October!
 ## Back-end
 There is not much backend work here.
 We are using Flask at our backend.
-Issue specfic to backend will be opening soon! 
+Backend needs special attention. 
 
 ## Contributions
 
