@@ -9,6 +9,7 @@ This website needs to be completed by the end of October!
 
 ## Back-end
 There is not much backend work here.
+Backend includes counting the number of visitors and an emailer to send emails regarding new updates in the blogs.
 We are using Flask at our backend.
 Backend needs special attention. 
 
