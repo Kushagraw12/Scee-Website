@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+       
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 *{
@@ -18,7 +20,8 @@ body{
 	font-size:14px;
 	color: #222222;
 	background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80");
-	font-family: 'Poppins', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     max-width:1920px;
     margin:0 auto;
 	overflow-x:hidden;
@@ -103,7 +106,7 @@ html,body{
 --------------------------------------*/
 .top-area {
     position: relative;
-
+    font-weight: 500;
     width: 100%;
 }
 .wrapper {
@@ -145,7 +148,8 @@ html,body{
 .logo a, .logo a:hover, .logo a:focus{
     color: #fff;
     font-size:24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     text-transform: capitalize;
     font-weight: 600;
     margin: 14px 0px 0;
@@ -178,8 +182,8 @@ html,body{
     color: #fff;
     font-size: 16px;
     text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
-    font-weight:500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     -webkit-transition: all 0.25s ease-in-out 0s;
     -moz-transition: all 0.25s ease-in-out 0s;
     -o-transition: all 0.25s ease-in-out 0s;
@@ -244,7 +248,8 @@ html,body{
     text-align: center;
     color: #fff;
     font-size:14px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     text-transform: capitalize;
     border-radius: 5px;
     -webkit-transition: 0.5s ease-in-out;
@@ -318,7 +323,8 @@ html,body{
     white-space: nowrap;
     color: #fff;
     font-size:16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     text-transform: uppercase;
     border-radius: 5px;
     box-shadow: 0 5px 20px rgba(14,15,18,.2);
@@ -365,7 +371,8 @@ html,body{
     cursor: default;
     font-size: 20px;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     text-transform: capitalize;
     -webkit-transition: .5s; 
 	-moz-transition:.5s; 
@@ -384,7 +391,8 @@ html,body{
     cursor: default;
     font-size: 20px;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     text-transform: capitalize;
     padding: 17px 40px 17px 46px;
     border: 0;
@@ -416,7 +424,8 @@ html,body{
 	color: #565a5c;
     font-size: 20px;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     text-transform: capitalize;
     margin-bottom: 17px;
 }
@@ -431,7 +440,8 @@ html,body{
     font-size: 18px;
     color: #aaa;
     background: #f9f9f9;
-    font-family: "fontAwesome";
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     pointer-events: none;
     border:1px solid #d7d7d7;
     border-bottom: transparent;
@@ -449,7 +459,8 @@ html,body{
     font-size: 18px;
     color: #aaa;
     background: #f9f9f9;
-    font-family: "fontAwesome";
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     pointer-events: none;
     border:1px solid #d7d7d7;
     border-bottom: transparent;
@@ -459,7 +470,8 @@ html,body{
 .travel-select-icon  select,.travel-check-icon  input {
 	color:#aaa;
 	font-size:14px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
 	text-transform: capitalize;
 	height: 48px;
 }/*select*/
@@ -496,7 +508,8 @@ html,body{
     color: #565a5c;
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     text-transform: capitalize;
     margin-bottom: 17px;
     margin-left:0px;
@@ -552,7 +565,8 @@ html,body{
 	color: #565a5c;
     font-size: 20px;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     text-transform: capitalize;
 }
 .price_filter{
@@ -586,13 +600,15 @@ html,body{
     text-align: center;
     width: 280px;
     border: none !important;;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
 }
 .price_slider_amount label {
     font-weight: 500;
     font-size: 14px;
     color: #aaa;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
 }
 .price_slider_amount > input[type="text"]:focus {outline: 0}
 .price_slider_amount > input[type="submit"] {outline: 0;}
@@ -601,7 +617,8 @@ html,body{
    	font-weight: 500;
     font-size: 14px;
     color: #aaa;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
 }
 
 /* .travel-btn */
@@ -634,14 +651,16 @@ html,body{
     color:#565a5c;
     font-size:16px;
     text-transform:capitalize;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    
 }
 .service-content p{
     color:#aaa;
     font-size:14px;
     text-transform:inherit;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     margin-top: 17px;
 }
 
@@ -666,14 +685,16 @@ html,body{
     font-size:30px;
     font-weight:500;
     text-transform:capitalize;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     padding-bottom:14px;
 }
 .gallary-header p{
     position:relative;
     color:#aaa;  
     font-size:16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     margin-top: 17px;
 }
 /* featured-header  */
@@ -726,8 +747,8 @@ html,body{
     color:#fff;
     font-size:24px;
     text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     margin-bottom: 3px;
     -webkit-transition:all 0.6s linear;
     -moz-transition:all 0.6s linear;
@@ -739,7 +760,8 @@ html,body{
     color:#fff;
     font-size:16px;
     text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     -webkit-transition:all 0.6s linear;
     -moz-transition:all 0.6s linear;
     -ms-transition:all 0.6s linear;
@@ -780,8 +802,8 @@ html,body{
 .dicount-offer-content h2{
     color:#fff;
     font-size:30px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     line-height: 1.4;
 }
 
@@ -799,7 +821,8 @@ html,body{
     font-size: 14px;
     color: #fff;
     font-weight:600;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     padding: 10px 0;
 }
 .time-after{
@@ -818,7 +841,8 @@ html,body{
     font-weight: 500;
     font-size:48px;
     color: #fff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
 }/* campaign-timer */
 
 /*.discount-offer-btn*/
@@ -859,7 +883,8 @@ html,body{
     font-size: 20px;
     color: #565a5c;
     font-weight:500;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     padding: 20px 0;
 }
 .single-package-item h3:after{
@@ -878,7 +903,8 @@ html,body{
 .packages-para p{
     font-size: 14px;
     color: #aaa;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     margin-bottom:15px;
 }
 .packages-para p span{
@@ -893,7 +919,8 @@ html,body{
     margin-left: 20px;
     font-size: 14px;
     color: #aaa;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     text-transform: capitalize;
 }
 .about-view.packages-btn{
@@ -983,7 +1010,8 @@ html,body{
 .home1-testm-txt p{
     color: #aaa;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     max-width: 284px;
     margin: 0 auto;
     padding: 20px 0;
@@ -992,14 +1020,14 @@ html,body{
     display: block;
     color: #00d8ff;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     text-transform: capitalize;
 }
 .home1-testm-txt h4{
     color: #aaa;
     font-size: 14px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
     padding: 15px 0 0px;
 }
@@ -1058,8 +1086,8 @@ html,body{
 .single-special-shape-txt h3,.single-special-shape-txt h4{
     color: #fff;
     font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     text-align: center;
 }
 .single-special-shape-txt h4{
@@ -1089,8 +1117,8 @@ html,body{
 .single-special-offer h2{
     color: #74eaff;
     font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     margin-bottom: 22px;
 }
 /*single-special-offer*/
@@ -1160,14 +1188,16 @@ html,body{
     padding: 25px 0 25px 20px;
     color:#565a5c;
     font-size:16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
 }
 .thumbnail span{
     color:#aaa;
     font-size:14px;
     font-weight: normal;
     padding-left: 25px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
 }
 
 /*.thumbnail-img*/
@@ -1216,7 +1246,8 @@ html,body{
     color:#565a5c;
     font-size:15px;
     font-weight:500;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     margin-top:15px;
     padding-bottom: 3px;
     min-height: 63px;
@@ -1225,11 +1256,13 @@ html,body{
 .blog-content .caption .blog-txt p{
     color:#aaaaaa;
     font-size:14px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     min-height: 105px
 }
 .blog-content .caption .blog-txt a {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     font-size: 16px;
     color: #64cbfa;
     padding-bottom: 12px;
@@ -1260,15 +1293,16 @@ html,body{
 .subscribe-title h2{
     color:#fff;
     font-size:38px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     line-height: 1.4;
     
 }
 .subscribe-title p{
     color:#fff;
     font-size:20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     line-height: 1.4;
     margin-top: 10px;
 }/*subscribe-title*/
@@ -1320,7 +1354,8 @@ html,body{
     color: #fff;
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     box-shadow: 0 1px 5px rgba(2, 3, 3, 0.15);
     letter-spacing: 0.7px;
     border: 0;
@@ -1364,7 +1399,8 @@ html,body{
 
 /*single-footer-item*/
 .single-footer-item{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     text-transform: capitalize;
 }
 .single-footer-item h2{
@@ -1381,7 +1417,8 @@ html,body{
 .footer-logo a, .footer-logo a:hover,.footer-logo a:focus {
     color: #565a5c;
     font-size:24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     text-transform: capitalize;
     font-weight: 600;
     margin: 14px 0px 0;
@@ -1394,7 +1431,8 @@ html,body{
 .footer-logo p{
     color: #aaa;
     font-size:16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
     text-transform: capitalize;
 }
 /*footer-logo*/
@@ -1483,7 +1521,19 @@ html,body{
     color:#00d8ff;
     font-size:16px;
     margin-top:28px;
-}/*foot-icons*/
+}
+
+.leading-relaxed pull-left{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+
+}
+
+
+
+
+
+/*foot-icons*/
 
 /*===============================
          Scroll Top
