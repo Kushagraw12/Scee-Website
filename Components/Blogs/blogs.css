@@ -22,7 +22,7 @@
 
 .card-header {
     margin: 5px;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 30px;
     text-align: center;
 }
@@ -31,7 +31,7 @@
     color: #f7f7f7;
     margin: 5px;
     /*font-family: 'Aladin', cursive;*/
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 22px;
 }
 
@@ -53,7 +53,7 @@
 cite {
     font-size: 16px;
     color: #000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'IBM Plex Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .i2 {
