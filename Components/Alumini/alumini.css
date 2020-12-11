@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 .head {
-    margin-top: 150px;
-    border-bottom: 4px solid #fff;
-   /* font-family: 'Playfair Display', serif;*/
+    margin-top: 100px;
+    /* border-bottom: 4px solid #fff; */
+   /* font-family: 'Playfair Display', serif; */
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 30px;
+    color: #fff !important;
 }
 
 .aa {
