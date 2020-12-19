@@ -11,3 +11,5 @@ Your names will be added here after one or more of your prs have been merged (fi
 4. Abdul Azim | [GitHub Profile](https://github.com/azim2429)
 
 5. Devansh Mehra | [GitHub Profile](https://github.com/DevanshMehra)
+
+6. Akanksha Vidyarthi | [GitHub Profile](https://github.com/akankshaa99) | [LinkedIn](https://www.linkedin.com/in/akanksha-vidyarthi-b7a2a61a0/)
