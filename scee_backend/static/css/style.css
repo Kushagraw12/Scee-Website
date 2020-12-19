@@ -301,11 +301,11 @@ html,body{
 .about-btn {
     margin-top: 39px;
     letter-spacing: 1.2px;
-     -webkit-transition: 0.5s ease-in-out;
+     /* -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
     -ms-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out; */
 }
 .about-view {
 	display: flex;
@@ -322,18 +322,20 @@ html,body{
     text-transform: uppercase;
     border-radius: 5px;
     box-shadow: 0 5px 20px rgba(14,15,18,.2);
-    -webkit-transition: 0.5s ease-in-out;
+    /* -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
     -ms-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out; */
 }
+
 .about-btn:hover .about-view{
     color: #fff;
     background: #00d8d5;
     box-shadow: 0 5px 20px rgba(14,15,18,.7);
 	border: 1px solid #00d8d5;
 }
+
 .travel-mrt-0{
     margin-top: 0px;
 }
@@ -902,11 +904,11 @@ html,body{
     font-size: 14px;
     color: #fff;
     text-transform: capitalize;
-    -webkit-transition: .5s; 
+    /* -webkit-transition: .5s; 
     -moz-transition:.5s; 
     -ms-transition:.5s; 
     -o-transition:.5s;
-    transition: .5s;
+    transition: .5s; */
 
 }
 .about-view.packages-btn:hover{

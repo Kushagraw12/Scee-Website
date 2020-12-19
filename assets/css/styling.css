@@ -19,8 +19,8 @@
 }
 
 .log-sc {
-    height: 150px;
-    margin-left: 1200px;
+    height: 250px;
+    margin-left: 1200px; 
     margin-top: 0px;
     margin-bottom: 4rem;
 }
@@ -39,9 +39,65 @@ p {
 
 .header {
     margin-top: 5rem;
+    color: #fff !important;
 }
 
 .ab-team {
     color: #fff;
     margin-top: 3rem;
 }
+
+.white-bgg2, .white-bggg{
+    background-color: transparent;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+    /* color: #fff; */
+    font-weight: 500;
+}
+
+.white-bgg2 {
+    color: #fff;
+}
+.ab-te {
+    font-size: 24px;
+}
+
+.ab-te:hover {
+    color: red;
+}
+
+.insta {
+    margin-right: 20px;
+}
+
+.insta:hover {
+    color: pink;
+    margin-right: 20px;
+}
+
+.linkedin:hover {
+    color: blue;
+}
+
+.column3 {
+    /* float: right; */
+    width: 100%;
+    padding: 0px;
+    align-self: center;
+    align-items: center;
+}
+
+.column2 {
+    float: left;
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

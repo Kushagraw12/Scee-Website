@@ -12,7 +12,7 @@ def index():
 
 @app.route ("/blogs")
 def blogs():
-  return render_template("blogs.html")
+  return render_template("cs.html")
 
 if __name__ == "__main__":
     app.run(debug=True)

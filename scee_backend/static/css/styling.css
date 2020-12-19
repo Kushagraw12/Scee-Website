@@ -39,9 +39,15 @@ p {
 
 .header {
     margin-top: 5rem;
+    color: #fff !important;
 }
 
 .ab-team {
     color: #fff;
     margin-top: 3rem;
+}
+
+.about-view {
+    color: #fff !important;
+    font-weight: 500;
 }

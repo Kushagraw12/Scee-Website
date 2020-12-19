@@ -133,3 +133,14 @@ input:focus,
         padding-bottom: 19px;
         color: #fff;
     }
+
+.form {
+    color: #fff !important;
+}
+
+.formm {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
