@@ -46,6 +46,8 @@ h3,h4,h5,h6 {
 	margin: 0;
     color:#222222;
 	text-transform: capitalize;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight:500;
 }
 
 p {
@@ -53,6 +55,8 @@ p {
 	margin: 0;
 	/*color:#666666;
 	font-size:14px;*/
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight:300;
 
 }
 
