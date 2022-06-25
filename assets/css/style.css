@@ -14,7 +14,15 @@
 	box-sizing:border-box;
 
 }
+p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+}
 
+h1,h2,h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+}
 body{
     position: relative;
 	font-size:14px;
